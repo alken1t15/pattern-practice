@@ -1,6 +1,6 @@
 package PatternTask.abstractFacroty;
 
-public class RuKeyboard implements Keyboard{
+public class RuKeyboard implements Keyboard {
     @Override
     public void print() {
         System.out.println("Печатаем строку");

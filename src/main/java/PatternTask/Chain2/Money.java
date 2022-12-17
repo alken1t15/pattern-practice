@@ -12,10 +12,9 @@ public class Money {
     }
 
     public void setAmt(int amt) {
-        if(amt>0 && amt<=200_000 && amt%Note.R100==0) {
+        if (amt > 0 && amt <= 200_000 && amt % Note.R100 == 0) {
             this.amt = amt;
-        }
-        else {
+        } else {
             throw new RuntimeException("Сумма денег должна быть не более 100 000 и кратна 100");
         }
     }

@@ -8,8 +8,8 @@ public class Main {
         smsLogger.setNext(fileLogger);
         fileLogger.setNext(emailLogger);
 
-        smsLogger.writeMessage("Все хорошо",Level.INFO);
-        smsLogger.writeMessage("Идет режим отладки",Level.DEBUG);
-        smsLogger.writeMessage("Система упала",Level.ERROR);
+        smsLogger.writeMessage("Все хорошо", Level.INFO);
+        smsLogger.writeMessage("Идет режим отладки", Level.DEBUG);
+        smsLogger.writeMessage("Система упала", Level.ERROR);
     }
 }

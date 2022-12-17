@@ -9,6 +9,6 @@ public class AdapterVectorGraphics extends RasterGraphics implements VectorGraph
 
     @Override
     public void drawSquare() {
-drawRasterSquare();
+        drawRasterSquare();
     }
 }

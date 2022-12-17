@@ -1,8 +1,7 @@
 package PatternTask.Proxy;
 
-public class ProxyImage  implements Image{
+public class ProxyImage implements Image {
     String file;
-
     RealImage image;
 
     public ProxyImage(String file) {
@@ -11,7 +10,7 @@ public class ProxyImage  implements Image{
 
     @Override
     public void display() {
-        if(image == null){
+        if (image == null) {
             image = new RealImage(file);
         }
         image.display();

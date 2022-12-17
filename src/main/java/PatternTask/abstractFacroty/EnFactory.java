@@ -1,6 +1,6 @@
 package PatternTask.abstractFacroty;
 
-public class EnFactory implements DeviceFactory{
+public class EnFactory implements DeviceFactory {
     @Override
     public Mouse getMouse() {
         return new EnMouse();

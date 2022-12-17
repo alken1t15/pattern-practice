@@ -1,13 +1,15 @@
 package PatternTask.Command;
 
 public class Computer {
-    public void start(){
+    public void start() {
         System.out.println("Start");
     }
-    public void stop(){
+
+    public void stop() {
         System.out.println("Stop");
     }
-    public void reset(){
+
+    public void reset() {
         System.out.println("Reset");
     }
 }

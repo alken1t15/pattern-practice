@@ -1,11 +1,11 @@
 package PatternTask.Chain2;
 
 public abstract class NoteModule {
-    protected  NoteModule next;
+    protected NoteModule next;
 
-    abstract  void takeMoney(Money money);
+    abstract void takeMoney(Money money);
 
-    void  setNextMoneyModule(NoteModule module){
+    void setNextMoneyModule(NoteModule module) {
         next = module;
     }
 }

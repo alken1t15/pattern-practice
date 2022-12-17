@@ -12,16 +12,17 @@ public class Main {
         mouse.doubleClick();
         keyboard.println();
         keyboard.print();
-        touchPad.track(5,2);
+        touchPad.track(5, 2);
     }
-    public static DeviceFactory getFactory(String name){
-        switch (name){
+
+    public static DeviceFactory getFactory(String name) {
+        switch (name) {
             case "Ru":
                 return new RuFactory();
             case "En":
                 return new EnFactory();
             default:
-                throw new RuntimeException("Нету такой фабрики");
+                throw new RuntimeException("Нет такой фабрики");
         }
     }
 }

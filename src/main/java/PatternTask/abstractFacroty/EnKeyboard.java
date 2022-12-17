@@ -1,6 +1,6 @@
 package PatternTask.abstractFacroty;
 
-public class EnKeyboard implements Keyboard{
+public class EnKeyboard implements Keyboard {
     @Override
     public void print() {
         System.out.println("Print the line");

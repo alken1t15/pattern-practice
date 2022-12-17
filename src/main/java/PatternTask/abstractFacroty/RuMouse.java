@@ -1,6 +1,6 @@
 package PatternTask.abstractFacroty;
 
-public class RuMouse implements Mouse{
+public class RuMouse implements Mouse {
     @Override
     public void click() {
         System.out.println("Щелчок мыши");

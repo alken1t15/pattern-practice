@@ -10,13 +10,16 @@ public class User {
         this.stop = stop;
         this.reset = reset;
     }
-    void startComputer(){
+
+    void startComputer() {
         start.execute();
     }
-    void stopComputer(){
+
+    void stopComputer() {
         stop.execute();
     }
-    void resetComputer(){
+
+    void resetComputer() {
         reset.execute();
     }
 }

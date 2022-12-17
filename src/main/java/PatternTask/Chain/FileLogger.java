@@ -6,6 +6,7 @@ public class FileLogger implements Logger {
     public FileLogger(int priority) {
         this.priority = priority;
     }
+
     Logger next;
 
     public void setNext(Logger next) {
@@ -14,11 +15,11 @@ public class FileLogger implements Logger {
 
     @Override
     public void writeMessage(String message, int level) {
-        if(level<=priority){
+        if (level <= priority) {
             System.out.println("Записываем в файл: " + message);
         }
-        if(next!=null){
-            next.writeMessage(message,level);
+        if (next != null) {
+            next.writeMessage(message, level);
         }
     }
 }

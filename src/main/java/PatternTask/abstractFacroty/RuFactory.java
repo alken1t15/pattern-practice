@@ -1,6 +1,6 @@
 package PatternTask.abstractFacroty;
 
-public class RuFactory implements DeviceFactory{
+public class RuFactory implements DeviceFactory {
     @Override
     public Mouse getMouse() {
         return new RuMouse();

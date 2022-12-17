@@ -1,6 +1,6 @@
 package PatternTask.Proxy;
 
-public class RealImage implements Image{
+public class RealImage implements Image {
     String file;
 
     public RealImage(String file) {
@@ -8,7 +8,7 @@ public class RealImage implements Image{
         load();
     }
 
-    void load(){
+    void load() {
         System.out.println("Загрузка " + file);
     }
 
