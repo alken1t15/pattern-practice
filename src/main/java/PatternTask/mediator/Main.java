@@ -12,7 +12,7 @@ public class Main {
         chat.addUser(u1);
         chat.addUser(u2);
 
-        u1.getMessage("Привет, я пользователь.");
+        u1.sendMessage("Привет, я пользователь.");
         admin.sendMessage("АДМИН зашел в чат!!!");
     }
 }
